@@ -1,0 +1,24 @@
+{
+  "name": "mbed-hal-st-stm32f429zi",
+  "version": "0.0.1",
+  "description": "mbed HAL for stm32f429zi microcontrollers",
+  "keywords": [],
+  "author": "Brendan Moran <brendan.moran@arm.com>",
+  "homepage": "https://github.com/ARMmbed/mbed-hal-st-stm32f429zi",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes":["mbed-hal-st-stm32f429zi"],
+  "dependencies": {
+      "cmsis-core":"~0.1.0",
+      "uvisor-lib":"~0.6.0"
+      },
+  "targetDependencies": {
+      "stm32f429i-disco" : {
+          "mbed-hal-stm32f429i-disco":"~0.0.0"
+      }
+  }
+}
