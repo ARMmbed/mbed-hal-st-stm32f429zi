@@ -13,7 +13,7 @@
   ],
   "extraIncludes":["mbed-hal-st-stm32f429zi"],
   "dependencies": {
-      "cmsis-core":"~0.1.0",
+      "cmsis-core":"~0.2.0",
       "uvisor-lib":"~0.6.0"
       },
   "targetDependencies": {
