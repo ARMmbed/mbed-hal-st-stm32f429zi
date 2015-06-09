@@ -52,5 +52,4 @@ endif()
 target_link_libraries(mbed-hal-st-stm32f429zi
     ${EXTRA_LINK_LIBS}
     mbed-hal
-    mbed-hal-st-stm32f429i-disco
 )

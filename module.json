@@ -17,8 +17,5 @@
       "uvisor-lib":"~0.6.0"
       },
   "targetDependencies": {
-      "stm32f429i-disco" : {
-          "mbed-hal-stm32f429i-disco":"~0.0.0"
-      }
   }
 }
