@@ -34,6 +34,7 @@
 #include "PortNames.h"
 #include "PeripheralNames.h"
 #include "PinNames.h"
+#include "target_config.h"
 
 #ifdef __cplusplus
 extern "C" {
