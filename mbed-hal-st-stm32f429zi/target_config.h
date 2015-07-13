@@ -18,7 +18,7 @@
 
 // Minar platform configuration
 
-#define MINAR_PLATFORM_TIME_BASE 1000
-#define MINAR_PLATFORM_TIME_MASK 0xFFFFFFFFu
+#define MINAR_PLATFORM_TIME_BASE  1000
+#define MINAR_PLATFORM_MINIMUM_SLEEP 1
 
 #endif
