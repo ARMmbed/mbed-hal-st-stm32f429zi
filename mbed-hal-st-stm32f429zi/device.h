@@ -65,6 +65,8 @@
 
 #define DEVICE_ERROR_RED        0
 
+#define DEVICE_LOWPOWERTIMER    1
+
 #include "objects.h"
 
 #endif

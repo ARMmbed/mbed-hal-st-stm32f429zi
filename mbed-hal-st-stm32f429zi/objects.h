@@ -34,6 +34,7 @@
 #include "PortNames.h"
 #include "PeripheralNames.h"
 #include "PinNames.h"
+#include "target_config.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -103,6 +104,10 @@ struct pwmout_s {
     uint32_t pulse;
     uint8_t channel;
     uint8_t inverted;
+};
+
+struct sleep_s {
+    TIM_HandleTypeDef TimMasterHandle;
 };
 
 #include "gpio_object.h"
