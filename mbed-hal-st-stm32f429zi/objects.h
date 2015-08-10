@@ -82,14 +82,11 @@ struct spi_s {
     uint32_t bits;
     uint32_t cpol;
     uint32_t cpha;
-    uint32_t mode;
     uint32_t order;
-    uint32_t nss;
     uint32_t br_presc;
     PinName pin_miso;
     PinName pin_mosi;
     PinName pin_sclk;
-    PinName pin_ssel;
 };
 
 struct i2c_s {
