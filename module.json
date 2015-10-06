@@ -19,7 +19,7 @@
     "mbed-hal-st-stm32f429zi"
   ],
   "dependencies": {
-    "cmsis-core": "~0.3.0",
+    "cmsis-core": "~0.4.0",
     "uvisor-lib": "~0.8.0"
   },
   "targetDependencies": {}
