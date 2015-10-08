@@ -84,6 +84,7 @@ struct spi_s {
     PinName pin_ssel;
     uint32_t event;
     uint8_t module;
+    uint8_t transfer_type;
 };
 
 struct i2c_s {
