@@ -23,6 +23,7 @@
 
 #define MODULE_SIZE_SPI         6
 #define MODULE_SIZE_SERIAL      8
+#define MODULE_SIZE_I2C         3
 
 // Transaction queue size for each peripheral
 #define TRANSACTION_QUEUE_SIZE_SPI   16
