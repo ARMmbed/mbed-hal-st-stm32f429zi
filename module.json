@@ -2,7 +2,10 @@
   "name": "mbed-hal-st-stm32f429zi",
   "version": "0.4.1",
   "description": "mbed HAL for stm32f429zi microcontrollers",
-  "keywords": [],
+  "keywords": [
+    "mbed",
+    "mbed-official"
+  ],
   "author": "Brendan Moran <brendan.moran@arm.com>",
   "homepage": "https://github.com/ARMmbed/mbed-hal-st-stm32f429zi",
   "licenses": [
@@ -19,8 +22,8 @@
     "mbed-hal-st-stm32f429zi"
   ],
   "dependencies": {
-    "cmsis-core": "~0.4.0",
-    "uvisor-lib": "~0.8.0"
+    "cmsis-core": "^1.0.0",
+    "uvisor-lib": "~0.9.0"
   },
   "targetDependencies": {}
 }
