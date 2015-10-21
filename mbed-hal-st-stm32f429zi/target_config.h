@@ -18,7 +18,7 @@
 
 // Minar platform configuration
 
-#define MINAR_PLATFORM_TIME_BASE  1000
+#define MINAR_PLATFORM_TIME_BASE  2000
 #define MINAR_PLATFORM_MINIMUM_SLEEP 1
 
 #define MODULE_SIZE_SPI         6
