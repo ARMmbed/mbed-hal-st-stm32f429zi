@@ -108,9 +108,11 @@ LoopFillZerobss:
   bcc  FillZerobss
 
 /* Call the clock system intitialization function.*/
-  bl  SystemInit
 /* Call uVisor initialization function. */
+  bl SystemInitPre
+  bl HAL_InitPre
   bl uvisor_init
+  bl SystemInit
 /* Call static constructors */
   //bl __libc_init_array
 /* Call the application's entry point.*/
