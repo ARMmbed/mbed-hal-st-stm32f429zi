@@ -58,8 +58,18 @@ typedef enum {
     UART_8 = (int)UART8_BASE
 } UARTName;
 
+#ifdef YOTTA_CFG_HARDWARE_PINS_USBTX
+#define STDIO_UART_TX YOTTA_CFG_HARDWARE_PINS_USBTX
+#else
 #define STDIO_UART_TX  PA_9
+#endif
+
+#ifdef YOTTA_CFG_HARDWARE_PINS_USBRX
+#define STDIO_UART_RX YOTTA_CFG_HARDWARE_PINS_USBRX
+#else
 #define STDIO_UART_RX  PA_10
+#endif
+
 #define STDIO_UART     UART_1
 
 typedef enum {
@@ -78,7 +88,9 @@ typedef enum {
 } I2CName;
 
 typedef enum {
+#ifndef YOTTA_CFG_HARDWARE_RESERVED_PERIPHERALS_TIM1
     PWM_1  = (int)TIM1_BASE,
+#endif
     PWM_2  = (int)TIM2_BASE,
     PWM_3  = (int)TIM3_BASE,
     PWM_4  = (int)TIM4_BASE,
