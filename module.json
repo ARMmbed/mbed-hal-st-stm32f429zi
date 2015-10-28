@@ -1,6 +1,6 @@
 {
   "name": "mbed-hal-st-stm32f429zi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mbed HAL for stm32f429zi microcontrollers",
   "keywords": [
     "mbed",
