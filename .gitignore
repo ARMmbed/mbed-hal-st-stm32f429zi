@@ -6,4 +6,4 @@ build
 upload.tar.gz
 
 # vim files
-.*.sw*
+*.sw*
