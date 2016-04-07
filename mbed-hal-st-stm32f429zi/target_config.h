@@ -19,13 +19,10 @@
 // Minar platform configuration
 
 #define MINAR_PLATFORM_TIME_BASE  2000
-#define MINAR_PLATFORM_MINIMUM_SLEEP 1
+#define MINAR_PLATFORM_MINIMUM_SLEEP 2
 
 #define MODULES_SIZE_SPI         6
 #define MODULES_SIZE_SERIAL      8
-
-// betzw: just for temporary backward compatibility
-#define MODULE_SIZE_SPI         6
 
 // Transaction queue size for each peripheral
 #define TRANSACTION_QUEUE_SIZE_SPI   16
